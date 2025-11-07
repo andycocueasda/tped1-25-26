@@ -2,24 +2,25 @@ body {
   font-family: "Times New Roman";
   font-size: 15px;
   font-style: italic;
-  background: linear-gradient(rgba(173, 132, 19, 0.5), rgba(41, 97, 140, 0.5)),
-  url("wingsss.jpg") no-repeat center center;
+  background: 
+  url("img/wings.jpg") no-repeat center center;
   background-size: cover;
 }
 
-a:hover {
+div.gallery-item img:hover {
   filter: none;
 }
 
 h1 {
-  align-items: center;
+  text-align: center;
 }
 
 div.gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 div.gallery-item {
@@ -42,7 +43,9 @@ div.gallery-item div.desc {
 }
 
 .logo {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
-  align-items: center;
 }
