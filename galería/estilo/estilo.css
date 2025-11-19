@@ -11,9 +11,8 @@ div.gallery-item img:hover {
   filter: none;
 }
 
-div.gallery-item img:hover .overlay{
-  filter: none;
-  opacity: 100;
+.gallery-item:hover .overlay {
+  opacity: 1;
 }
 
 h1 {
@@ -43,15 +42,13 @@ div.gallery-item img {
   height: auto;
 }
 
-div.gallery-item div.desc {
-  
-  padding: 15px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+.desc {
+  font-family: "Times New Roman";
+  font-size: 32px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
 }
 
 .logo {
@@ -62,14 +59,16 @@ div.gallery-item div.desc {
   margin-bottom: 100px;
 }
 .overlay {
-  position: relative;
+  position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0;
-  height: 100%;
   width: 100%;
-  opacity: 100;
-  transition: .5s ease;
-  background-color: #008CBA;
+  height: 100%;
+  background: rgba(0,0,0,0.55);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(3px);
 }
