@@ -11,6 +11,11 @@ div.gallery-item img:hover {
   filter: none;
 }
 
+div.gallery-item img:hover .overlay{
+  filter: none;
+  opacity: 100;
+}
+
 h1 {
   text-align: center;
 }
@@ -24,14 +29,16 @@ div.gallery {
 }
 
 div.gallery-item {
+  position: relative;
   margin: 5px;
   width: 450px;
   height: 450px;
-  margin-bottom: 65px;
+  margin-bottom: 5px;
 }
 
 div.gallery-item img {
   filter: sepia(100%);
+  display: block;
   width: 100%;
   height: auto;
 }
@@ -40,6 +47,11 @@ div.gallery-item div.desc {
   
   padding: 15px;
   text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .logo {
@@ -48,4 +60,16 @@ div.gallery-item div.desc {
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 100;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
