@@ -1,0 +1,58 @@
+body {
+  font-family: "Times New Roman";
+  font-size: 15px;
+  font-style: italic;
+  background: 
+  url("img/telita.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+div.gallery-item img:hover {
+  filter: none;
+  transform: scale(1.02);
+}
+
+h1 {
+  text-align: center;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+div.gallery-item {
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;
+}
+
+div.gallery-item img {
+  filter: sepia(70%);
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.desc {
+  font-family: "Times New Roman";
+  font-size: 32px;
+  font-style: italic;
+  color: white;
+  letter-spacing: 2px;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
