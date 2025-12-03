@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial";
+  font-size: 15px;
+  background: white;
+}
+
+h1 {
+  text-align: left;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.unifrakturmaguntia-regular {
+  font-family: "UnifrakturMaguntia";
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.unifraktur-maguntia {
+  font-family:"UnifrakturMaguntia";
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 0px;
+}
+
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.special-elite {
+  font-family:"Special Elite", system-ui;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;
+}
+
+.tomorrow-medium {
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+div.tomorrow {
+  font-family: "Tomorrow", sans-serif;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;
+}
+
+.fleur-de-leah-regular {
+  font-family: "Fleur De Leah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.fleur-de-leah {
+  font-family: "Fleur De Leah", cursive;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;  
+}
+
+.rubik-burned-regular {
+  font-family: "Rubik Burned", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.rubik-burned {
+  font-family: "Rubik Burned", system-ui;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;  
+}
+
+.jolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.jolly-lodger {
+  font-family: "Jolly Lodger", system-ui;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;  
+}
+
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.amarante {
+  font-family: "Amarante", serif;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;  
+}
+
+.coral-pixels-regular {
+  font-family: "Coral Pixels", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.coral-pixels {
+  font-family: "Coral Pixels", serif;
+  position: relative;
+  margin: 5px;
+  width: 400px;
+  height: 450px;
+  margin-bottom: 5px;  
+}
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div.eagle-lake {
+  font-family: "Eagle Lake", serif;
+  position: relative;
+  margin: 5px;
+  width: 450px;
+  height: 450px;
+  margin-bottom: 5px;  
+}
