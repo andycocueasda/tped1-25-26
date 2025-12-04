@@ -1,7 +1,8 @@
 body {
   font-family: "Arial";
   font-size: 15px;
-  background: white;
+  background: 
+  url("img/pared.jpg") no-repeat center center;
 }
 
 h1 {
