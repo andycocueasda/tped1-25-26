@@ -5,15 +5,28 @@ body {
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 170px;
+  font-family: "Monsieur La Doulaise", regular;
+  font-size: 100px;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 5px;
 }
 
 div.gallery {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin-bottom: 0px;
 }
 
 .unifrakturmaguntia-regular {
@@ -27,7 +40,7 @@ div.unifraktur-maguntia {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
+  height: 200px;
   margin-bottom: 0px;
 }
 
@@ -42,8 +55,8 @@ div.special-elite {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;
+  height: 200px;
+  margin-bottom: 0px;
 }
 
 .tomorrow-medium {
@@ -57,8 +70,8 @@ div.tomorrow {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;
+  height: 200px;
+  margin-bottom: 0px;
 }
 
 .fleur-de-leah-regular {
@@ -72,8 +85,8 @@ div.fleur-de-leah {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;  
+  height: 200px;
+  margin-bottom: 0px;  
 }
 
 .rubik-burned-regular {
@@ -87,8 +100,8 @@ div.rubik-burned {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;  
+  height: 200px;
+  margin-bottom: 0px;  
 }
 
 .jolly-lodger-regular {
@@ -102,8 +115,8 @@ div.jolly-lodger {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;  
+  height: 200px;
+  margin-bottom: 0px;  
 }
 
 .amarante-regular {
@@ -117,8 +130,8 @@ div.amarante {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;  
+  height: 200px;
+  margin-bottom: 0px;  
 }
 
 .coral-pixels-regular {
@@ -132,8 +145,8 @@ div.coral-pixels {
   position: relative;
   margin: 5px;
   width: 400px;
-  height: 450px;
-  margin-bottom: 5px;  
+  height: 200px;
+  margin-bottom: 0px;  
 }
 
 .eagle-lake-regular {
@@ -147,6 +160,13 @@ div.eagle-lake {
   position: relative;
   margin: 5px;
   width: 450px;
-  height: 450px;
-  margin-bottom: 5px;  
+  height: 200px;
+  margin-bottom: 0px;  
 }
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
