@@ -1,0 +1,118 @@
+h1 {
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 150px;
+    text-align: center;
+}
+
+.rubik-dirt-regular {
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: auto;
+}
+
+.pangolin-regular {
+  font-family: "Pangolin", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+ul {
+    font-family: "Pangolin", cursive;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    line-height: 50px;
+    list-style: none;
+}
+
+.nike {
+  background: url('img/logo nike.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.ni_ke {
+    text-decoration: none;
+}
+
+.ni_ke:hover {
+    color: rgb(162, 0, 0);
+    text-decoration: none;
+}
+
+.elpais {
+  background: url('img/images.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.el_pais {
+    text-decoration: none;
+}
+
+.el_pais:hover {
+    color: rgb(3, 137, 240);
+    text-decoration: none;
+}
+
+.galeria {
+  background: url('img/logo rosalia.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.ga_leria {
+    text-decoration: none;
+}
+
+.ga_leria:hover {
+    color: rgb(0, 67, 182);
+    text-decoration: none;
+}
+
+.galeriaevaluable {
+  background: url('img/logo lux.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.galeria_evaluable {
+    text-decoration: none;
+}
+
+.galeria_evaluable:hover {
+    color: rgb(181, 158, 95);
+    text-decoration: none;
+}
+
+.castingtipografico {
+  background: url('img/t.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.casting_tipografico {
+    text-decoration: none;
+}
+
+.casting_tipografico:hover {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
