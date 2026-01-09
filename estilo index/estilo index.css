@@ -116,3 +116,35 @@ ul {
     color: rgb(94, 94, 94);
     text-decoration: none;
 }
+
+.paginaresponsive {
+  background: url('img/ratag.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.pagina_responsive {
+  text-decoration: none;
+}
+
+.pagina_responsive:hover {
+    color: rgb(238, 139, 0);
+    text-decoration: none;
+}
+
+.maquetacionbootstrap {
+  background: url('img/bootstrap\ logo.png') no-repeat left center;
+  background-size: 20px;
+  padding-left: 28px;
+  margin-bottom: 8px; 
+}
+
+.maquetacion_bootstrap {
+  text-decoration: none;
+}
+
+.maquetacion_bootstrap:hover {
+    color: rgb(154, 0, 238);
+    text-decoration: none;
+}
