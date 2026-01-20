@@ -1,0 +1,171 @@
+body {
+  font-family: sans-serif;
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Mountains of Christmas", serif;
+  color: rgb(238, 139, 0);
+  font-size: 80px;
+  padding: 15px;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.menu {
+  padding-left: 40px;
+  width: 15%;
+  text-align: center;
+}
+
+.menu a {
+  border-radius: 40px;
+  background-color: #f8efc6;
+  padding: 15px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: rgb(172, 89, 0);
+}
+
+.main {
+  width: 52%;
+  margin: 0 auto;
+  padding: 20px;
+  color: rgb(172, 89, 0);
+}
+
+.right {
+  background-color: #f8efc6;
+  color: rgb(172, 89, 0);
+  border-radius: 40px;
+  width: 15%;
+  margin-right: 40px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "VT232", monospace;
+  text-align: center;
+}
+
+h3 {
+  font-family: "VT232", monospace;
+}
+
+p {
+  padding: 10px;
+  font-family: "VT232", monospace;
+}
+
+.insta {
+    font-family: "VT232", monospace;
+    text-decoration: none;
+}
+
+.insta:hover{
+    font-size: 20px;
+    color:rgb(238, 139, 0);
+}
+
+.tictoco {
+    font-family: "VT232", monospace;
+    text-decoration: none;
+}
+
+.tictoco:hover{
+    font-size: 20px;
+    color:rgb(238, 139, 0);
+}
+
+.whoops {
+    font-family: "VT232", monospace;
+    text-decoration: none;
+}
+
+.whoops:hover{
+    font-size: 20px;
+    color:rgb(238, 139, 0);
+}
+
+.name {
+  font-family: "Mountains of Christmas", serif;
+  color: rgb(238, 139, 0);
+  font-size: 20px;
+  text-align: justify;
+}
+
+u {
+  text-decoration-style: dotted;
+  text-decoration-color: rgb(238, 139, 0);
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+img {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
+.hellokitty {
+  width: 200px;
+  border-radius: 40px;
+}
+
+.adelitaromita {
+  width: 200px;
+  border-radius: 40px;
+}
+
+.sanrioheads {
+  width: 200px;
+  border-radius: 40px;
+}
+
+img {
+  margin: 15px;
+  text-align: center;
+}
+
+/* Esto significa que si la pantalla ocupa menos de 620px de ancho se aplican los estilos de abajo */
+@media (max-width: 620px) {
+
+  .layout {
+    flex-direction: column; /*Esto hace que en vez de que el flujo sea hacia la derecha hace que baje*/
+    align-items: center;
+    gap: 16px;
+    padding: 0 12px;
+  }
+
+  .menu, /*Es una forma de aplicar el mismo estilo a varias clases*/
+  .main,
+  .right {
+    width: 100%;
+    margin: 0;
+    padding: 12px;
+  }
+  .menu a {
+    width: 100%;
+  }
+}
